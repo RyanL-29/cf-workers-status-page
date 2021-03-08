@@ -7,8 +7,6 @@ webpack_config = "node_modules/flareact/webpack"
 [triggers]
 crons = ["*/2 * * * *"]
 
-kv-namespaces = [{binding="KV_STATUS_PAGE", id="e0c06e8fa40b484c9b7f035cf1c026db", preview_id=""}]
-
 [site]
 bucket = "out"
 entry-point = "./"
