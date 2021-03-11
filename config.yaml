@@ -44,3 +44,10 @@ monitors:
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
+    
+  - id: ANiAPI
+    name: ANi EMBY
+    url: 'https://emby.ani.rip'
+    method: GET
+    expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
