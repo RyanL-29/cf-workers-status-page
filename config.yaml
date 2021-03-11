@@ -18,7 +18,7 @@ monitors:
   - id: ANiSystem # unique identifier
     name: ANi System
     description: '主要伺服器' # default=empty
-    url: 'http://aniprivate.mynetgear.com/404.html' # URL to fetch
+    url: 'http://aniprivate.mynetgear.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -26,7 +26,7 @@ monitors:
   - id: ANiStorage
     name: ANi NAS
     description: '儲存伺服器'
-    url: 'http://aniprivate.mynetgear.com/404.html'
+    url: 'http://aniprivate.mynetgear.com'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
@@ -40,7 +40,7 @@ monitors:
     
   - id: ANiAPI
     name: ANi API
-    url: 'https://api.ani.rip/ani/api/anigamer_new.xml'
+    url: 'https://api.ani.rip/'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
