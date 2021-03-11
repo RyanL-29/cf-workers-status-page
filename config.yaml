@@ -33,14 +33,14 @@ monitors:
     
   - id: OpenANi
     name: Open ANi
-    url: 'https://aniopen.a-ni.workers.dev/'
+    url: 'https://aniopen.a-ni.workers.dev'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
     
   - id: ANiAPI
     name: ANi API
-    url: 'https://api.ani.rip/'
+    url: 'https://api.ani.rip'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
