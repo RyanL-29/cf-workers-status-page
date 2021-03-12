@@ -18,7 +18,7 @@ monitors:
   - id: ANiSystem # unique identifier
     name: ANi System
     description: '主要伺服器' # default=empty
-    url: 'http://aniprivate.mynetgear.com/' # URL to fetch
+    url: 'https://aniprivate.mynetgear.com/error/404.html' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -26,9 +26,9 @@ monitors:
   - id: ANiStorage
     name: ANi NAS
     description: '儲存伺服器'
-    url: 'http://aniprivate.mynetgear.com/'
+    url: 'https://aniprivate.mynetgear.com/error/404.html'
     method: GET
-    expectStatus: 499
+    expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
     
   - id: OpenANi
