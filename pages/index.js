@@ -45,6 +45,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
     <div className="min-h-screen">
       <Head>
         <title>{config.settings.title}</title>
+        <link data-react-helmet="true" rel="shortcut icon" href="https://raw.githubusercontent.com/RyanL-29/aniopen/master/favicon.ico" />
         <link rel="stylesheet" href="./style.css" />
         <script>
           {`
