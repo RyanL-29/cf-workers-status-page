@@ -33,6 +33,7 @@ monitors:
     
   - id: OpenANi
     name: Open ANi
+    description: 'https://open.ani.rip (可能因Cloudflare 防火牆而無法回報正常數據)'
     url: 'https://aniopen.a-ni.workers.dev'
     method: GET
     expectStatus: 200
@@ -41,6 +42,7 @@ monitors:
   - id: ANiAPI
     name: ANi API
     url: 'https://api.ani.rip'
+    description: 'https://api.ani.rip'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
@@ -48,6 +50,7 @@ monitors:
   - id: ANiEMBY
     name: ANi EMBY
     url: 'https://emby.ani.rip'
+    description: 'https://emby.ani.rip'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
