@@ -69,4 +69,8 @@
   .tooltip:hover .content {
     @apply visible opacity-100 scale-100;
   }
+  
+  html{
+    overflow-x: hidden;
+  }
 }
